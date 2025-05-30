@@ -106,14 +106,12 @@ const PatientDashboard: React.FC = () => {
                 key={consulta.id}
                 className="flex border border-gray-200 rounded-md hover:shadow transition-shadow bg-gray-50"
               >
-                {/* Barrinha colorida */}
                 <div
                   className={`${
                     statusColors[consulta.status]
                   } w-1 rounded-l-md`}
                 />
 
-                {/* Conteúdo da consulta */}
                 <div className="p-4 flex-grow">
                   <p className="text-gray-800">
                     <strong>Médico:</strong> {consulta.medico}
